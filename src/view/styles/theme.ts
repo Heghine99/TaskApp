@@ -18,30 +18,6 @@ const colors: Theme["colors"] = {
 
 export const theme: Theme = {
   colors,
-  input: {
-    borderRadius: 6,
-    textVariant: "h4",
-    layout: {
-      base: {
-        height: 60,
-        paddingHorizontal: 0,
-      },
-      multiline: {
-        height: 104,
-        paddingHorizontal: 0,
-      },
-    },
-    colors: {
-      base: {
-        text: colors.black["2"],
-        placeholder: colors.black["1"],
-        background: colors.white,
-        border: colors.black["7"],
-        selectionColor: colors.accent[1],
-        icon: colors.black["1"],
-      },
-    },
-  },
   fontFamily: {
     regular: "Mukta-Regular",
     medium: "Mukta-Medium",

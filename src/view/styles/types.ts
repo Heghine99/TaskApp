@@ -37,23 +37,6 @@ export interface Theme {
     white: string;
     black: Record<number, string>;
   };
-  input: {
-    textVariant: TextVariant;
-    borderRadius: number;
-    colors: {
-      base: InputColors;
-    };
-    layout: {
-      base: {
-        height: number;
-        paddingHorizontal: number;
-      };
-      multiline: {
-        height: number;
-        paddingHorizontal: number;
-      };
-    };
-  };
   fontFamily: FontFamily;
   text: Record<TextVariant, TextThemeProps>;
 }

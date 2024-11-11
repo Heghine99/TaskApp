@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   },
   inputsContainer: {
     flexDirection: "row",
-    alignItems: "center",
+    // alignItems: "center",
   },
   input: {
     marginLeft: 10,
@@ -28,4 +28,5 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  inputsStyles: {},
 });
