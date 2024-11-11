@@ -109,7 +109,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.apptest"
+    namespace "com.taskApp"
     defaultConfig {
         applicationId 'com.taskApp'
         minSdkVersion rootProject.ext.minSdkVersion
